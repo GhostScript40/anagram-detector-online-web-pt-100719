@@ -16,6 +16,6 @@ class Anagram
       end
   
     end
+    array
   end
-  array
 end
