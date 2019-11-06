@@ -8,9 +8,10 @@ class Anagram
   end
   
   def match(array)
+    i = 0
     array.each do |w| 
       if w.split("").sort == word.split("").sort
-        return array[w]
+        return array[i]
         else 
           array = [] 
       end
