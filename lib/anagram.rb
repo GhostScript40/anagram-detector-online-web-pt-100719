@@ -8,7 +8,12 @@ class Anagram
   end
   
   def match(array)
-    array.each {|w| w.include?(/\[diaper]/) return w else w = [] }
+    array.each do |w| 
+      if w.include?(/\[diaper]/) 
+        return w 
+        else 
+          array = [] 
+        end
   binding.pry
   end
 end
