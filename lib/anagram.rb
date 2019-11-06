@@ -14,7 +14,8 @@ class Anagram
         else 
           array = [] 
       end
-  array
+  
     end
   end
+  array
 end
