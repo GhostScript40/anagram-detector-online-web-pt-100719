@@ -13,7 +13,8 @@ class Anagram
         return w 
         else 
           array = [] 
-        end
+      end
   binding.pry
+    end
   end
 end
