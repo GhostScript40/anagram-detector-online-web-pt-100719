@@ -12,7 +12,7 @@ class Anagram
       if w == (/\[diaper\]/) 
         return w 
         else 
-          array = [] 
+          array = array.new 
       end
   
     end
